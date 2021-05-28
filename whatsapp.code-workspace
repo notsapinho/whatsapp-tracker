@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "node_modules/@adiwajshing/baileys"
+		},
+		{
+			"path": "view"
+		}
+	],
+	"settings": {}
+}

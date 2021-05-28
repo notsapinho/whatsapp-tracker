@@ -1,0 +1,8 @@
+node_modules/
+auth.json
+authAlt.json
+authMain.json
+config.json
+test/
+build/
+.DS_STORE

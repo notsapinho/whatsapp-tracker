@@ -1,0 +1,46 @@
+.device-desktop {
+	.popup.introduction {
+		.page-content {
+			overflow: hidden;
+		}
+	}
+}
+
+.popup.introduction {
+	.page {
+		.navbar {
+			display: none !important;
+		}
+		.page-content {
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			.login-screen-title {
+				margin-bottom: 0.5rem;
+			}
+			.list {
+				margin-top: 1rem;
+				li {
+					.item-media {
+						// align-self: center;
+					}
+					.item-inner {
+						&:after {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.device-desktop {
+	.popup.introduction {
+		.page-content {
+			justify-content: space-evenly;
+		}
+	}
+}

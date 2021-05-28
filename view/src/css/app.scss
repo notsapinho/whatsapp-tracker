@@ -1,0 +1,63 @@
+/* Your app custom styles here */
+.item-center {
+	.item-inner {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+html,
+body  {
+	position: fixed;
+	overflow: hidden;
+	background: #f7f7f8;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+}
+
+.tabs {
+	.tab {
+		padding: 0;
+	}
+}
+
+:root {
+	--f7-theme-color: #40c350;
+	--f7-theme-color-shade: #25d366;
+	--f7-theme-color-tint: #25d366;
+	// --f7-theme-color-tint: #25d366;
+	--f7-theme-color-rgb: rgb(64, 195, 81);
+}
+
+.title-left {
+	.navbar-inner {
+		justify-content: flex-start;
+
+		.title {
+			left: 0 !important;
+		}
+	}
+}
+
+.view-master-detail {
+	.back {
+		display: none !important;
+	}
+	.page:not(.page-master) {
+		width: calc(100% - var(--f7-page-master-width));
+		left: var(--f7-page-master-width);
+	}
+}
+
+.d-none {
+	display: none;
+}
+
+.calendarList {
+	margin: 0;
+}

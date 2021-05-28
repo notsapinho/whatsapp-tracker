@@ -1,0 +1,36 @@
+.user-navbar,
+.comparison-navbar {
+	justify-content: flex-start;
+
+	.title {
+		left: 0 !important;
+		display: flex;
+		align-items: center;
+
+		img {
+			height: calc(var(--f7-navbar-height) - 10px);
+			border-radius: 50%;
+			margin-right: 0.5rem;
+		}
+	}
+
+	.right {
+		flex-grow: 1;
+		display: flex;
+		justify-content: flex-end;
+
+		.link,
+		.preloader {
+			margin-left: 5px !important;
+			width: 44px;
+			height: 44px;
+		}
+
+		.preloader {
+			width: 28px !important;
+			height: 28px !important;
+		}
+	}
+}
+.page.use {
+}

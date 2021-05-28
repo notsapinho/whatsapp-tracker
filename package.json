@@ -1,0 +1,32 @@
+{
+	"name": "whatsapp-tracker",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node .",
+		"postinstall": "patch-package",
+		"test": "node test/ --unhandled-rejections=strict"
+	},
+	"keywords": [],
+	"author": "Flam3rboy",
+	"license": "ISC",
+	"dependencies": {
+		"@adiwajshing/baileys": "^3.1.0",
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"express-async-errors": "^3.1.1",
+		"express-jwt": "^6.0.0",
+		"helmet": "^4.1.1",
+		"http-proxy-middleware": "^1.0.5",
+		"https-proxy-agent": "^5.0.0",
+		"jsonwebtoken": "^8.5.1",
+		"node-fetch": "^2.6.0",
+		"node-ssh": "^11.1.1",
+		"opn": "^6.0.0",
+		"patch-package": "^6.2.2",
+		"quick.db": "^7.1.1",
+		"uuid": "^8.3.0",
+		"web-push": "^3.4.4"
+	}
+}

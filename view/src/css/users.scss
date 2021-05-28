@@ -1,0 +1,35 @@
+.users.list {
+	margin: 0;
+	ul {
+		&::before {
+			display: none;
+		}
+
+		.user {
+			.item-media {
+				img {
+					border-radius: 50%;
+				}
+			}
+		}
+	}
+}
+
+.navbar-hidden {
+	.navbar {
+		display: block;
+		transform: none;
+
+		.navbar-inner {
+			.title,
+			.left,
+			.right {
+				opacity: 1 !important;
+			}
+		}
+
+		.navbar-bg:before {
+			opacity: 1 !important;
+		}
+	}
+}
